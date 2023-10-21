@@ -14,7 +14,7 @@ function Game() {
   const [results, setResults] = useState([]);
   return (
     <>
-      <GuessResults results={results} />
+      <GuessResults answer={answer} results={results} />
       <GuessForm setResults={setResults} />
     </>
   );
